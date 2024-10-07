@@ -1,0 +1,60 @@
+
+#ele1 {
+    margin: 100px;
+    border: black solid 1px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    margin: 2rem;
+    align-content: center;
+}
+
+body {
+    text-align: center;
+    
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    
+}
+
+menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+    margin: .5rem;
+    list-style: none;
+    background-color: rgb(90, 90, 90);
+    width: 250px;
+    height: 50px;
+    align-content: center;
+
+}
+
+#key {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: black solid 1.5px;
+    
+}
